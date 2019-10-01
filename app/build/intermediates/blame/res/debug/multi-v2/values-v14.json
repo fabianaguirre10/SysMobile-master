@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrador1\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\68f1f5e301bed9fd8e53526e1b6ec179\\res\\values-v14\\values.xml",
+                    "from": {
+                        "startLines": "3,11,19,27,35,37,39,41",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,571,1100,1627,2168,2249,2344,2437",
+                        "endLines": "9,17,25,33,35,37,39,41",
+                        "endColumns": "12,12,12,12,79,93,91,105",
+                        "endOffsets": "565,1094,1621,2162,2243,2338,2431,2538"
+                    },
+                    "to": {
+                        "startLines": "17,24,31,38,45,46,47,48",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "879,1393,1921,2447,2987,3066,3159,3250",
+                        "endLines": "23,30,37,44,45,46,47,48",
+                        "endColumns": "12,12,12,12,78,92,90,104",
+                        "endOffsets": "1388,1916,2442,2982,3061,3154,3245,3350"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "3,4,1,2,15,20,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "114,160,16,63,642,859,417",
+                        "endLines": "3,4,1,2,18,22,13",
+                        "endColumns": "45,53,46,50,12,12,12",
+                        "endOffsets": "155,209,58,109,853,1040,636"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,10,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,155,202,253,469,655",
+                        "endLines": "2,3,4,5,9,12,16",
+                        "endColumns": "45,53,46,50,12,12,12",
+                        "endOffsets": "96,150,197,248,464,650,874"
+                    }
+                }
+            ]
+        }
+    ]
+}

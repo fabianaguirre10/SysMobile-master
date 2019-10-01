@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\src\\main\\res\\values-v11\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\src\\main\\res\\values-v11\\ids.xml",
+                    "from": {
+                        "startLines": "4,2,3,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "133,57,95,172",
+                        "endColumns": "37,36,36,36",
+                        "endOffsets": "166,89,127,204"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "112,149,185,221",
+                        "endColumns": "36,35,35,35",
+                        "endOffsets": "144,180,216,252"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrador1\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\68f1f5e301bed9fd8e53526e1b6ec179\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "3,10,17,24,31,38,45,52,59,66,73,75,77,79,176,178,180,186,233,280,328",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,476,902,1331,1758,2188,2614,3036,3472,3906,4354,4434,4528,4620,11350,11453,11578,11943,15581,19233,23010",
+                        "endLines": "8,15,22,29,36,43,50,57,64,71,73,75,77,174,176,178,184,231,278,326,374",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,78,92,90,12,101,123,12,12,12,12,12",
+                        "endOffsets": "470,896,1325,1752,2182,2608,3030,3466,3900,4348,4428,4522,4614,11344,11447,11572,11937,15575,19227,23004,26795"
+                    },
+                    "to": {
+                        "startLines": "11,17,23,29,35,41,47,53,59,65,71,72,73,74,170,171,172,177,223,269,316",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "443,862,1287,1715,2141,2570,2995,3416,3851,4284,4731,4809,4901,4991,11720,11815,11932,12296,15933,19584,23360",
+                        "endLines": "16,22,28,34,40,46,52,58,64,70,71,72,73,169,170,171,176,222,268,315,362",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,77,91,89,12,94,116,12,12,12,12,12",
+                        "endOffsets": "857,1282,1710,2136,2565,2990,3411,3846,4279,4726,4804,4896,4986,11715,11810,11927,12291,15928,19579,23355,27145"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "358"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "257",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "438"
+                    }
+                }
+            ]
+        }
+    ]
+}

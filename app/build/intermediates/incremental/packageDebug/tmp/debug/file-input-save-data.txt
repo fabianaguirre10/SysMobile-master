@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Mon Jul 15 08:57:58 COT 2019
+1.base=D\:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\assets\\debug
+2.path=baseDeDatos.db3
+0.baseType=DIRECTORY
+2.base=D\:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+2.baseType=DIRECTORY
+1.path=baseDeDatos2.db3

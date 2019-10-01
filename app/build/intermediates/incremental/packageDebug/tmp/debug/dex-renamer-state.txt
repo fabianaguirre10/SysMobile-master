@@ -1,0 +1,4 @@
+#Mon Jul 15 08:57:58 COT 2019
+base.0=D\:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+path.0=classes.dex
+renamed.0=classes.dex

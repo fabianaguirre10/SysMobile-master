@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\Version Pedidos\\SysMobile-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrador1\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\68f1f5e301bed9fd8e53526e1b6ec179\\res\\values-w720dp\\values.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "76",
+                        "endOffsets": "128"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}

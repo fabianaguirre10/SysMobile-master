@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.com.syswork.sysmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="26"
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="ar.com.syswork.sysmobile.shared.AppSysMobile"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="ar.com.syswork.sysmobile.psplash.ActivitySplash"
+            android:label="@string/app_name"
+            android:theme="@style/my" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ar.com.syswork.sysmobile.plogin.ActivityLogin"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pmenuprincipal.ActivityMenuPrincipal"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_pmenu_principal" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconfig.ActivityConfig"
+            android:label="@string/title_activity_activity_config" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultaclientes.ActivityConsultaClientes"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_consulta_clientes" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultagenerica.detalle.ActivityConsultaGenericaDetalle"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_consulta_clientes_editar" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultaarticulos.ActivityConsultaArticulos"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_consulta_articulos" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pcargapedidos.ActivityCargaPedidos"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_activity_toma_pedidos" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.plistapedidos.ActivityListaPedidos"
+            android:label="@string/title_activity_activity_lista_pedidos" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.psincronizar.ActivitySincronizar"
+            android:label="@string/title_activity_activity_sincornizar" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.penviapendientes.ActivityEnviaPendientes"
+            android:label="@string/title_activity_activity_envia_pendientes" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultactacte.ActivityConsultaCtaCte"
+            android:label="@string/title_activity_activity_consulta_cta_cte" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultastock.ActivityConsultaStock"
+            android:label="@string/title_activity_activity_consulta_stock" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.item_cheques"
+            android:label="@string/title_activity_item_cheques" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultactacte.dialog_chequespagos"
+            android:label="@string/title_activity_dialog_chequespagos" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultactacte.dialog_vistaimagen"
+            android:label="@string/title_activity_dialog_vistaimagen" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pconsultactacte.reporte_pagos"
+            android:label="@string/title_activity_reporte_pagos" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.item_reporte"
+            android:label="@string/title_activity_item_reporte" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.plistainventario.InventarioActivity"
+            android:label="@string/title_activity_inventario" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.item_lista_inventario"
+            android:label="@string/title_activity_item_lista_inventario" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.pcargainventario.CargaInventarioActivity"
+            android:label="@string/title_activity_carga_inventario" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.DialogSolicitarCantidadInventarioActivity"
+            android:label="@string/title_activity_dialog_solicitar_cantidad_inventario" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.ItemCargaInventarioActivity"
+            android:label="@string/title_activity_item_carga_inventario" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.visita"
+            android:label="@string/title_activity_visita" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.fragment_main"
+            android:label="@string/title_activity_fragment_main" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.item_carga_visitas"
+            android:label="@string/title_activity_item_carga_visitas" />
+        <activity
+            android:name="ar.com.syswork.sysmobile.plistavisitas.VisitaActivity"
+            android:label="@string/title_activity_listavisita" />
+    </application>
+
+</manifest>
